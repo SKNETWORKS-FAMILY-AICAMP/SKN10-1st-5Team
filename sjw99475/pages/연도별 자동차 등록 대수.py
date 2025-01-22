@@ -11,11 +11,14 @@ source = data.barley()
 
 toggle1 = st.toggle("승용차")
 if toggle1:
-    st.bar_chart(source, x="year", y="yield", color="site", stack=False)
+    chart_data = pd.DataFrame(np.random.randn(50, 17), columns=["서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종", "경기", "충북", "충남", "전북", "전남", "경북", "경남", "제주", "강원"])
+
+    st.line_chart(chart_data, x_label="연도별", y_label="총 등록 차량 수")
 
 toggle2 = st.toggle("승합차")
 if toggle2:
-    st.bar_chart(source, x="year", y="yield", color="site", stack=False)
+    chart_data = pd.DataFrame(np.random.randn(50, 17), columns=["서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종", "경기", "충북", "충남", "전북", "전남", "경북", "경남", "제주", "강원"])
 
+    st.line_chart(chart_data, x_label="연도별", y_label="총 등록 차량 수")
 
 
