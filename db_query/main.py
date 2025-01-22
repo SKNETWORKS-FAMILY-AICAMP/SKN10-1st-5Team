@@ -1,13 +1,13 @@
-from query_kia_faq import sql_execute
+from query2db import sql_execute
 
 sql = '''
 select
     *
-from kia_faq
+from car_detail
 ;
 '''
 
-df = sql_execute(sql)
+df = sql_execute(db="car", sql=sql)
 print(df)
 
 # streamlit에서는 이런 식으로 DataFrame 시각화 가능
