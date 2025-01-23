@@ -14,17 +14,8 @@
 | --- | --- | --- | --- |
 | 팀장 및 총괄 | 화면 설계 | 데이터 수집 및 저장 | 화면 구현 |
 
-
-
-
-
 <br/>
 
-
-
-
-## 📌 프로젝트 개요
-<br/>
 
 ### 프로젝트 주제
 <br/>
@@ -33,68 +24,19 @@
 <br/>
 <br/>
 
-### 프로젝트 내용
-<br/>
-
- 1. **데이터 수집 및 가공**<br/>
-- <b>[지표누리](https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1257)</b>에서 제공하는 연도별 및 지역별 자동차 등록 현황 데이터를 수집하여 목적에 맞게 가공한 후, 데이터베이스에 저장한다.
-<br/>
-
-2. **데이터 시각화**<br/>
-- 수집한 데이터를 Python의 **Matplotlib** 라이브러리 통해 시각화한다.
-<br/>
-
-3. **주요 2개 자동차 회사 FAQ**<br/>
-- 주요 2개 자동차 회사(현대, 기아)의 차량 구매 FAQ를 정리하고, 이를 조회할 수 있게 한다.
-<br/>
-<br/>
 
 
-## 📌 기술 스택
-<br/>
-
-### 화면 설계
-![](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-<br/>
-
-### 데이터 가공 및 처리
-![](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) &nbsp; ![](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white)
-<br/>
-
-### 화면 구현
-![](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white) &nbsp; ![](https://img.shields.io/badge/streamlit-FF0000?style=for-the-badge&logo=streamlit&logoColor=white)
-
-<br/>
-
-### 버전 관리 및 협업
-![](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)
-<br/>
-<br/>
-## 📝 초기 화면 설계
-
-![Image](https://github.com/user-attachments/assets/b7f53159-15b7-4fae-8b17-157a6513b0d5) <br/>
-
-![Image](https://github.com/user-attachments/assets/fc19f4c3-a887-491b-ad4d-91170dcafbd8) <br/>
-
-![Image](https://github.com/user-attachments/assets/090004dc-b628-4c92-8619-1b8809f3e8de) <br/>
-
-<br/>
-
-
-## 🔗 테이블 설계
+## 🔗 데이터베이스 설계문서: ERD
 
 ![Image](https://github.com/user-attachments/assets/55657ead-ca75-4ae0-b137-08cb36d9ef3c)
 
 <br/>
 
-## 📄 데이터 가공 및 처리
-![Image](https://github.com/user-attachments/assets/cbfff01f-e92d-4f14-9cd2-9520814b1f80)
-
-![Image](https://github.com/user-attachments/assets/ce10b9ce-5798-48b5-9b47-4a16e58169c0)
+## 📄 수집 데이터: 어떤 데이터를 어떻게 수집하였는지
 
 <br/>
 
-## 💻 화면 구현
+## 📝 데이터 조회 프로그램: 화면설계서
 
 
 
@@ -108,8 +50,12 @@
 
 <br/>
 
- ## 🔎 각 단계별 코멘트
-- 화면설계 : </br>
+ ## 🔎 기타
+- 개발과정에서 발생한 이슈 및 해결방법: </br>
+   </br>
+- 팀원별 느낀점 : </br>
+</br>
+남궁세정:</br>
 단순하게 화면만 구성하고 기능만 추가하면 된다고 생각했는데 <br/>
 단순히 심플하게 디자인하는게 중요한 것이 아니라 사용할 수 있는 기술스택이랑 실제 구현할 수 있는지<br/>
 없는지라던가 다양한 부분을 고려해서 화면을 설계해야한다는 것 그래서 화면설계가 제대로 이루어지지<br/>
