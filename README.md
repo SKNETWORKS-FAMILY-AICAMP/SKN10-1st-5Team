@@ -39,7 +39,7 @@
 ## 📄 수집 데이터: 어떤 데이터를 어떻게 수집하였는지
 ![Image](https://github.com/user-attachments/assets/cbfff01f-e92d-4f14-9cd2-9520814b1f80)
 
-현대 홈페이지 FAQ</br>
+**현대 홈페이지 FAQ** </br>
 자바스크립트를 통해 메세지를 보내는 형식이어서</br>
 정적 크롤링으로는 어렵다고 판단하여 셀레니움 라이브러리를 사용한 동적 크롤링을 통해 데이터를 분류 / 질문 / 대답으로 수집하여 저장</br>
 ![Image](https://github.com/user-attachments/assets/ce10b9ce-5798-48b5-9b47-4a16e58169c0)
@@ -47,14 +47,26 @@
 
 ## 📝 데이터 조회 프로그램: 화면설계서 (기능 테스트 시나리오랑 같이 합쳐야함)
 
-전국 자동차 등록 현황
+<div align="center">
+ <br/>
+ 
+  **전국 자동차 등록 현황**
+  
+</div>
+
 ![Image](https://github.com/user-attachments/assets/b7f53159-15b7-4fae-8b17-157a6513b0d5)
 
 - 중앙: 그래프
 - 하단 : 연도와 그래프 종류를 선택
 
 </br>
-기업 FAQ 조회 시스템
+
+<div align="center">
+
+ 
+  **기업 FAQ 조회 시스템**
+  
+</div>
 
 ![Image](https://github.com/user-attachments/assets/230d5e23-f0d4-45c0-86cd-1402e3d0b6af)
 ![Image](https://github.com/user-attachments/assets/a1a4224f-3a6a-4b97-84a0-8690f026f1d5)
@@ -66,14 +78,26 @@
 </br>
 
 ## 💻 데이터 조회 프로그램: 실제로 구현된 화면과 각 기능
+ <br/>
 
-메인페이지
+<div align="center">
+ 
+  **메인페이지**
+</div>
+
+
 ![Image](https://github.com/user-attachments/assets/21b84d68-e01d-460d-a588-b6407ed41590)
 좌측 : 메인페이지. 기업별FAQ 조회, 연도별 자동차 등록 대수 조회 각각을 누르면 각 페이지로 이동</br>
 중앙: 연도별 자동차 등록 대수 조회, 기업별FAQ 조회을 눌러도 각각 페이지로 이동
 
 
-연도별 자동차 등록 대수 조회
+<div align="center">
+ 
+  **연도별 자동차 등록 대수 조회**
+  
+</div>
+
+
 ![Image](https://github.com/user-attachments/assets/55db2a2b-c231-4e07-84bc-fa754fddd756)
 중앙 : 검색할 내용을 엔터로 입력하면 검색에 맞는 자료를 보여줌</br>
 기업을 선택하면 2개의 기업인 현대나 기아를 선택할 수 있음 그에 따라</br>
@@ -83,7 +107,12 @@
 
 
 
-기업별 FAQ 조회
+<div align="center">
+ 
+  **기업별 FAQ 조회**
+  
+</div>
+
 ![Image](https://github.com/user-attachments/assets/33570c3a-9823-4d98-a5fc-f5803dbdfd01)
 중앙: 그래프를 선택하면 연도 범위 선택, 차량 종류를 선택할 수 있는 화면이 나옵니다.</br>
 연도와 차량 종류를 선택하면 연결된 MySQL을 기반으로 그래프를 만들어줍니다.</br>
