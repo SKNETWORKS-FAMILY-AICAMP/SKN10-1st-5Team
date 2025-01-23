@@ -1,4 +1,4 @@
-# SKN10-1st-5Team
+![image](https://github.com/user-attachments/assets/6643f3be-6170-45f8-8462-f907a5aea70e)# SKN10-1st-5Team
 
 ## 🌟 프로젝트 팀 및 역할
 <br/>
@@ -94,13 +94,13 @@
 ## 📝 화면 설계
 
 <br/>
-
+![Image](https://github.com/user-attachments/assets/d1217656-84f3-427c-ab05-7b706ff55c2c)
 <br/>
-
+![Image](https://github.com/user-attachments/assets/619c81a7-a958-42b4-9022-d8ffde5f8535)
 <br/>
-
+![Image](https://github.com/user-attachments/assets/095a4e27-df22-4a95-b47a-0dbd9069ac53)
 <br/>
-
+![Image](https://github.com/user-attachments/assets/5acb31a4-7417-49af-afb6-41c1df7817b2)
 <br/>
 
 ## 📄 데이터 가공 및 처리
