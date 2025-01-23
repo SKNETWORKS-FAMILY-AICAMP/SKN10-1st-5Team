@@ -30,19 +30,19 @@
 
 
 
-## 🔗 데이터베이스 설계문서: ERD
+## 🔗 데이터베이스 설계문서: ERD (설명필요)
 
 ![Image](https://github.com/user-attachments/assets/55657ead-ca75-4ae0-b137-08cb36d9ef3c)
 
 <br/>
 
-## 📄 수집 데이터: 어떤 데이터를 어떻게 수집하였는지
+## 📄 수집 데이터: 어떤 데이터를 어떻게 수집하였는지(어떻게 수집했는지 사진하고 설명필요)
 ![Image](https://github.com/user-attachments/assets/cbfff01f-e92d-4f14-9cd2-9520814b1f80)
 
 ![Image](https://github.com/user-attachments/assets/ce10b9ce-5798-48b5-9b47-4a16e58169c0)
 <br/>
 
-## 📝 데이터 조회 프로그램: 화면설계서
+## 📝 데이터 조회 프로그램: 화면설계서 (기능 테스트 시나리오랑 같이 합쳐야함)
 
 전국 자동차 등록 현황
 
