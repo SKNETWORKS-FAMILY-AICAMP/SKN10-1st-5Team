@@ -81,7 +81,7 @@
 <br/>
 
 ### 화면 구현
-
+![](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white) &nbsp; ![](https://img.shields.io/badge/streamlit-FF0000?style=for-the-badge&logo=streamlit&logoColor=white)
 
 <br/>
 
