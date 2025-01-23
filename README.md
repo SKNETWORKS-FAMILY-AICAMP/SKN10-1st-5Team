@@ -82,7 +82,7 @@
 
 ### 화면 구현
 
-![image](https://github.com/user-attachments/assets/6643f3be-6170-45f8-8462-f907a5aea70e)
+
 <br/>
 
 ### 버전 관리 및 협업
@@ -94,7 +94,7 @@
 ## 📝 화면 설계
 
 <br/>
-![](https://github.com/user-attachments/assets/d1217656-84f3-427c-ab05-7b706ff55c2c)
+![image](https://github.com/user-attachments/assets/6643f3be-6170-45f8-8462-f907a5aea70e)
 <br/>
 ![](https://github.com/user-attachments/assets/619c81a7-a958-42b4-9022-d8ffde5f8535)
 <br/>
