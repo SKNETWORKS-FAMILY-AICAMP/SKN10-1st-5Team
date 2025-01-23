@@ -67,12 +67,11 @@
 
 ## 💻 데이터 조회 프로그램: 실제로 구현된 화면과 각 기능
 
-![Image](https://github.com/user-attachments/assets/3062c7ad-ee85-4d1a-b2e5-56753455429a)
+![Image](https://github.com/user-attachments/assets/21b84d68-e01d-460d-a588-b6407ed41590)
 
-![Image](https://github.com/user-attachments/assets/a07196a0-fef8-4499-850c-6554242b333f)
+![Image](https://github.com/user-attachments/assets/55db2a2b-c231-4e07-84bc-fa754fddd756)
 
-![Image](https://github.com/user-attachments/assets/fea2df09-d652-4736-b0a9-e62fa63408b8)
-
+![Image](https://github.com/user-attachments/assets/33570c3a-9823-4d98-a5fc-f5803dbdfd01)
 
 <br/>
 
