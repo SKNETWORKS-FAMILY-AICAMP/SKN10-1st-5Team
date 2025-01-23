@@ -57,7 +57,8 @@
 ![Image](https://github.com/user-attachments/assets/a1a4224f-3a6a-4b97-84a0-8690f026f1d5)
 
 - 상단: 검색기능
-- 중앙 : FAQ에 대한 조회화면( 항목,찾는 내용,페이지 선택)
+- 중앙 : FAQ에 대한 조회화면( 항목,찾는 내용)
+- 하단 : 페이지 선택
 
 <br/>
 
