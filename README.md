@@ -98,10 +98,13 @@
 ## 📝 초기 화면 설계
 
 <br/>
-![Image](https://github.com/user-attachments/assets/b7f53159-15b7-4fae-8b17-157a6513b0d5)
-![Image](https://github.com/user-attachments/assets/9205fcf6-2c8b-4d31-86d1-b5c4fc8fb3f6)
-![Image](https://github.com/user-attachments/assets/fc19f4c3-a887-491b-ad4d-91170dcafbd8)
-![Image](https://github.com/user-attachments/assets/090004dc-b628-4c92-8619-1b8809f3e8de)
+![Image](https://github.com/user-attachments/assets/b7f53159-15b7-4fae-8b17-157a6513b0d5) <br/>
+
+![Image](https://github.com/user-attachments/assets/9205fcf6-2c8b-4d31-86d1-b5c4fc8fb3f6) <br/>
+
+![Image](https://github.com/user-attachments/assets/fc19f4c3-a887-491b-ad4d-91170dcafbd8) <br/>
+
+![Image](https://github.com/user-attachments/assets/090004dc-b628-4c92-8619-1b8809f3e8de) <br/>
 
 <br/>
 
