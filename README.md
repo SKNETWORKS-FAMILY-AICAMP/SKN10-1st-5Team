@@ -79,12 +79,10 @@
 <br/>
 
 ### 화면 설계
-
 ![](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 <br/>
 
 ### 데이터 가공 및 처리
-
 ![](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) &nbsp; ![](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white)
 <br/>
 
@@ -94,10 +92,9 @@
 <br/>
 
 ### 버전 관리 및 협업
-
 ![](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)
 <br/>
-
+<br/>
 ## 📝 초기 화면 설계
 
 <br/>
