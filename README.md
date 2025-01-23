@@ -97,7 +97,6 @@
 
 ![](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)
 <br/>
-<br/>
 
 ## 📝 초기 화면 설계
 
