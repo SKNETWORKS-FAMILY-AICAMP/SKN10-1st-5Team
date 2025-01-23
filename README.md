@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6643f3be-6170-45f8-8462-f907a5aea70e)# SKN10-1st-5Team
+# SKN10-1st-5Team
 
 ## 🌟 프로젝트 팀 및 역할
 <br/>
@@ -82,7 +82,7 @@
 
 ### 화면 구현
 
-![](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white) &nbsp; ![](https://img.shields.io/badge/streamlit-FF0000?style=for-the-badge&logo=streamlit&logoColor=white)
+![image](https://github.com/user-attachments/assets/6643f3be-6170-45f8-8462-f907a5aea70e)
 <br/>
 
 ### 버전 관리 및 협업
