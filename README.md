@@ -1,5 +1,13 @@
 # SKN10-1st-5Team
 ![Image](https://github.com/user-attachments/assets/51c829fe-ac31-471b-aa5d-092e4ad45a12)
+
+## 프로젝트 주제
+<br/>
+
+
+**전국 자동차 등록 현황 및 기업 FAQ 조회 시스템**
+<br/>
+<br/>
 ## 📅 프로젝트 기간
 **2025.01.20(월요일) ~ 2025.01.23(목요일)** (총 4일), <br/>
 프로젝트 발표일 : 2025.01.24 (금요일)
@@ -17,11 +25,7 @@
 <br/>
 
 
-### 프로젝트 주제
-<br/>
 
-**전국 자동차 등록 현황 및 기업 FAQ 조회 시스템**
-<br/>
 <br/>
 
 
@@ -33,18 +37,14 @@
 <br/>
 
 ## 📄 수집 데이터: 어떤 데이터를 어떻게 수집하였는지
+![Image](https://github.com/user-attachments/assets/cbfff01f-e92d-4f14-9cd2-9520814b1f80)
 
+![Image](https://github.com/user-attachments/assets/ce10b9ce-5798-48b5-9b47-4a16e58169c0)
 <br/>
 
 ## 📝 데이터 조회 프로그램: 화면설계서
-
-
-
-<br/>
-
-## 📌 프로젝트 최종 결과(완성화면)
-
-
+![Image](https://github.com/user-attachments/assets/fc19f4c3-a887-491b-ad4d-91170dcafbd8)
+![Image](https://github.com/user-attachments/assets/090004dc-b628-4c92-8619-1b8809f3e8de)
 
 
 
