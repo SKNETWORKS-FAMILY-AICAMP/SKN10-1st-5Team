@@ -115,7 +115,9 @@
 <br/>
 
 ## 📄 데이터 가공 및 처리
+![Image](https://github.com/user-attachments/assets/cbfff01f-e92d-4f14-9cd2-9520814b1f80)
 
+![Image](https://github.com/user-attachments/assets/ce10b9ce-5798-48b5-9b47-4a16e58169c0)
 
 <br/>
 
