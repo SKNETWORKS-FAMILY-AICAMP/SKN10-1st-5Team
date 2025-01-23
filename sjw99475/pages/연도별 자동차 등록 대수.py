@@ -3,9 +3,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from query2db import sql_execute
+import plotly.express as px
 
 # 그래프 종류들
-graphs = ['선 그래프', '지도']
+graphs = ['선 그래프', '지도', '도넛 차트']
 
 # 지역 데이터들
 regions = ['서울', '부산', '대구', '인천', '광주', '대전', '울산', '세종', '경기', '충북', '충남', 
@@ -113,4 +114,48 @@ order by city
         df["value"] = (df["value"].astype(float)) / 1000
         st.map(df, latitude="lat", longitude="lon", size="value")
 
+elif selected_graph == '도넛 차트':
+    choice_standard, selected_view, choice_view = False, False, False
+    col_list = [['지역별', '연도별', '월별', '차종별', '용도별'], ['city', 'year', 'month', 'type', 'purpose']]
+    selected_standard = st.selectbox("기준을 골라주세요.", col_list[0], index = None)
+    if selected_standard:
+        standard_idx = col_list[0].index(selected_standard)
+        mapping_standard = col_list[1][standard_idx]
+        sql = f'''
+            select distinct {mapping_standard} from car_detail;
+            '''
+        standard = sql_execute(db="car", sql=sql)
+        choice_standard = st.selectbox('항목을 선택해주세요.', standard, index = None)
 
+    if choice_standard:
+        _, _ = col_list[0].remove(selected_standard), col_list[1].remove(mapping_standard)
+        selected_view = st.selectbox("볼 데이터를 골라주세요.", col_list[0], index = None)
+        if selected_view:
+            view_idx = col_list[0].index(selected_view)
+            mapping_view = col_list[1][view_idx]
+
+    if selected_view:
+        sql = f'''
+            select distinct {mapping_view} from car_detail;
+            '''
+        view = sql_execute(db="car", sql=sql)
+        choice_view = st.multiselect('항목을 선택해주세요.', view)
+    
+    if choice_view:
+        txt = f"and {mapping_view} = '{choice_view[0]}' "
+        for i in choice_view[1:]:
+            txt += f"or {mapping_view} = '{i}' "
+        sql = f'''
+            select {mapping_view}, sum(value) as sum_value from car_detail
+            where 1 = 1
+            {txt}
+            group by {mapping_view}
+            order by sum_value desc;
+            '''
+        df = sql_execute(db="car", sql=sql)
+        fig = px.pie(
+            df,
+            values = "sum_value",
+            names = mapping_view,
+            title = f"{selected_standard}[{choice_standard}] / {selected_view} 도넛 차트", height = 800)
+        st.plotly_chart(fig)
