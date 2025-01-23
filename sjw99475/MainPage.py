@@ -15,7 +15,7 @@ def load_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode()
 
-image_path = "C:/Users/Playdata/Desktop/SK ai camp 10기/1차 단위 프로젝트/메인 배경화면.png"  # 이미지 파일 경로
+image_path = "./메인 배경화면.png"  # 이미지 파일 경로
 image_base64 = load_image(image_path)
 
 # HTML로 배경 이미지 설정
