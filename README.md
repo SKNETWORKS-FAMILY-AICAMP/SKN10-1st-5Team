@@ -108,7 +108,7 @@
 <br/>
 
 
-## 🔗  데이터베이스 (ERD)
+## 🔗 테이블 설계
 
 ![Image](https://github.com/user-attachments/assets/55657ead-ca75-4ae0-b137-08cb36d9ef3c)
 
