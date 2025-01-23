@@ -25,31 +25,18 @@
 <br/>
 
 
-## 📝 초기 화면 설계
 
-![Image](https://github.com/user-attachments/assets/b7f53159-15b7-4fae-8b17-157a6513b0d5) <br/>
-
-![Image](https://github.com/user-attachments/assets/fc19f4c3-a887-491b-ad4d-91170dcafbd8) <br/>
-
-![Image](https://github.com/user-attachments/assets/090004dc-b628-4c92-8619-1b8809f3e8de) <br/>
-
-<br/>
-
-
-## 🔗 테이블 설계
+## 🔗 데이터베이스 설계문서: ERD
 
 ![Image](https://github.com/user-attachments/assets/55657ead-ca75-4ae0-b137-08cb36d9ef3c)
 
 <br/>
 
-## 📄 데이터 가공 및 처리
-![Image](https://github.com/user-attachments/assets/cbfff01f-e92d-4f14-9cd2-9520814b1f80)
-
-![Image](https://github.com/user-attachments/assets/ce10b9ce-5798-48b5-9b47-4a16e58169c0)
+## 📄 수집 데이터: 어떤 데이터를 어떻게 수집하였는지
 
 <br/>
 
-## 💻 화면 구현
+## 📝 데이터 조회 프로그램: 화면설계서
 
 
 
