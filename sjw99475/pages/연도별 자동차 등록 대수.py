@@ -112,3 +112,5 @@ order by city
         df['lat'] = df['lat'].astype(float)
         df["value"] = (df["value"].astype(float)) / 1000
         st.map(df, latitude="lat", longitude="lon", size="value")
+
+
