@@ -94,6 +94,7 @@
 ## 📝 화면 설계
 
 <br/>
+
 ![Image](https://github.com/user-attachments/assets/d1217656-84f3-427c-ab05-7b706ff55c2c)
 
 ![Image](https://github.com/user-attachments/assets/619c81a7-a958-42b4-9022-d8ffde5f8535)
