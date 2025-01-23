@@ -37,11 +37,14 @@
 <br/>
 
 ## 📄 수집 데이터: 어떤 데이터를 어떻게 수집하였는지
+![Image](https://github.com/user-attachments/assets/cbfff01f-e92d-4f14-9cd2-9520814b1f80)
 
+![Image](https://github.com/user-attachments/assets/ce10b9ce-5798-48b5-9b47-4a16e58169c0)
 <br/>
 
 ## 📝 데이터 조회 프로그램: 화면설계서
-
+![Image](https://github.com/user-attachments/assets/fc19f4c3-a887-491b-ad4d-91170dcafbd8)
+![Image](https://github.com/user-attachments/assets/090004dc-b628-4c92-8619-1b8809f3e8de)
 
 
 
