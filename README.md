@@ -57,7 +57,7 @@
 
 <div align="center">
  
-**현대 홈페이지 FAQ** </br>
+**기아 홈페이지 FAQ** </br>
 
 </div>
 
