@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import base64
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title = '5팀 단위 프로젝트')
 
 st.title("전국 자동차 등록 현황")
 
@@ -10,7 +10,6 @@ if st.button("연도별 자동차 등록 대수 조회"):
     st.switch_page("pages/연도별 자동차 등록 대수.py")
 if st.button("기업별 FAQ 조회"):
     st.switch_page("pages/기업별 FAQ 조회.py")
-
 
 
 def load_image(image_path):
