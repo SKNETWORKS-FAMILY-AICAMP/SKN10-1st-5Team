@@ -37,12 +37,9 @@
 
 ## 🔗 데이터베이스 설계문서: ERD
 
-<<<<<<< HEAD
 ![Image](https://github.com/user-attachments/assets/3efa685f-1b4b-49a4-9a9f-eb0fc3ad015f)
-=======
 ![image](https://github.com/user-attachments/assets/dcaa83c3-d937-47df-8dde-8aba41eb463e)
 
->>>>>>> origin/develop
 
 - 각각 **자동차 등록** , **현대 FAQ** , **기아 FAQ** 이라는 테이블을 만들고</br></br> 
 - 자동차 등록에는  **지역**, **연도**, **월**, **차종**, **용도**를 기본키로 쓰면서 not null로 설정하고 **등록수**까지를 컬럼으로 만들었습니다.</br></br>
