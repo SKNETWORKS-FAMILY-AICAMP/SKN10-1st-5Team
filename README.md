@@ -51,6 +51,8 @@
 
 </div>
 
+- 설명을 적어주세요</br>
+
 ![Image](https://github.com/user-attachments/assets/cbfff01f-e92d-4f14-9cd2-9520814b1f80)
 
 <div align="center">
@@ -154,6 +156,11 @@ find_element를 사용할 때 문제가 있는 곳이 BY.CLASSNAME을 이용하�
    </br>
 - **팀원별 느낀점 :** </br>
 </br>
+
+**최수헌**
+</br>
+내용을 적어주세요.
+
 
 **남궁세정**
 </br>
