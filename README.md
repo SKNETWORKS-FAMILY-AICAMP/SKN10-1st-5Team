@@ -33,6 +33,14 @@
 
 <br/>
 
+## 📝필수 라이브러리
+둘 중 택 1
+```shell
+pip install PyMySQL pandas streamlit selenium beautifulsoup4 matplotlib seaborn plotly
+```
+```shell
+pip install -r requirements.txt
+```
 
 
 ## 🔗 데이터베이스 설계문서: ERD
