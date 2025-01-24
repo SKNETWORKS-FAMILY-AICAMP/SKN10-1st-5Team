@@ -45,9 +45,22 @@
 <br/>
 
 ## 📄 수집 데이터: 어떤 데이터를 어떻게 수집하였는지
+</br>
+
+<div align="center">
+ 
+**연도별 자동차 등록대수**
+
+</div>
+
 ![Image](https://github.com/user-attachments/assets/cbfff01f-e92d-4f14-9cd2-9520814b1f80)
 
+<div align="center">
+ 
 **현대 홈페이지 FAQ** </br>
+
+</div>
+
 자바스크립트를 통해 메세지를 보내는 형식이어서</br>
 정적 크롤링으로는 어렵다고 판단하여 셀레니움 라이브러리를 사용한 동적 크롤링을 통해 데이터를 분류 / 질문 / 대답으로 수집하여 저장</br>
 ![Image](https://github.com/user-attachments/assets/ce10b9ce-5798-48b5-9b47-4a16e58169c0)
