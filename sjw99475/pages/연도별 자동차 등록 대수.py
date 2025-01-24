@@ -2,13 +2,14 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 from query2db import sql_execute
 import plotly.express as px
 
 st.set_page_config(layout="wide")
 
 # 그래프 종류들
-graphs = ['선 그래프', '지도', '도넛 차트']
+graphs = ['선 그래프', '지도', '도넛 차트', '기타']
 
 # 지역 데이터들
 regions = ['서울', '부산', '대구', '인천', '광주', '대전', '울산', '세종', '경기', '충북', '충남', 
@@ -166,3 +167,75 @@ elif selected_graph == '도넛 차트':
         fig.update_layout(
             title = dict(font = dict(size = 30)), showlegend = True, legend = dict(font = dict(size = 25)))
         st.plotly_chart(fig)
+elif selected_graph == '기타':
+    # 랜덤 데이터를 생성
+    np.random.seed(42)  # 랜덤 시드를 고정하여 결과를 재현 가능하게 만듦
+    months = np.random.choice(['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'], size=100)
+    values = np.random.randint(100, 1000, size=100)  # 100에서 1000 사이의 랜덤 값
+
+    # 데이터프레임 생성
+    df = pd.DataFrame({
+        'month': months,
+        'value': values
+    })
+
+    # Stripplot 그리기
+    plt.figure(figsize=(10, 6))
+    sns.stripplot(data=df, x='month', y='value', jitter=True, color='blue')
+    plt.title('Stripplot graph')
+    st.pyplot(plt)
+
+    # 랜덤 데이터를 생성
+    np.random.seed(42)  # 랜덤 시드를 고정하여 결과를 재현 가능하게 만듦
+    months = np.random.choice(['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'], size=200)
+    values = np.random.normal(loc=500, scale=150, size=200)  # 평균 500, 표준편차 150인 정규분포를 따르는 랜덤 값
+
+    # 데이터프레임 생성
+    df = pd.DataFrame({
+        'month': months,
+        'value': values
+    })
+
+    # Violinplot 그리기
+    plt.figure(figsize=(10, 6))
+    sns.violinplot(data=df, x='month', y='value', color='yellow', inner="stick")
+    plt.title(' Violinplot graph')
+    st.pyplot(plt)
+
+    # 랜덤 데이터를 생성
+    np.random.seed(42)  # 랜덤 시드를 고정하여 결과를 재현 가능하게 만듦
+    # 5개의 랜덤 변수 생성 (예: 'A', 'B', 'C', 'D', 'E' 컬럼)
+    data = np.random.rand(100, 5)  # 100개의 샘플, 5개의 변수
+
+    # 데이터프레임 생성
+    insurance_df = pd.DataFrame(data, columns=['A', 'B', 'C', 'D', 'E'])
+
+    # 상관계수 계산
+    corr_matrix = insurance_df.corr()
+
+    # Heatmap 그리기
+    sns.set_theme(rc={'figure.figsize': (8, 6)}, style='white')
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt='.2f', cbar=True, square=True)
+    plt.title('heatmap graph')
+    st.pyplot(plt)
+
+    # 랜덤 데이터를 생성
+    np.random.seed(42)  # 랜덤 시드를 고정하여 결과를 재현 가능하게 만듦
+    categories = ['A', 'B', 'C', 'D', 'E']  # 5개의 카테고리
+    values = np.random.randint(100, 1000, size=5)  # 100에서 1000 사이의 랜덤 값 생성
+
+    # 도넛 차트 그리기
+    fig, ax = plt.subplots(figsize=(8, 8))
+    wedges, texts, autotexts = ax.pie(
+        values, 
+        labels=categories, 
+        autopct='%1.1f%%', 
+        startangle=90, 
+        wedgeprops=dict(width=0.4)
+    )
+
+    ax.set_title('랜덤 데이터로 그린 도넛 차트')
+    
+    # Streamlit에서 그래프 표시
+    st.pyplot(fig)
