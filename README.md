@@ -38,8 +38,6 @@
 ## 🔗 데이터베이스 설계문서: ERD
 
 ![image](https://github.com/user-attachments/assets/dcaa83c3-d937-47df-8dde-8aba41eb463e)
-![image](https://github.com/user-attachments/assets/598ab7b8-6319-4932-939c-33fd1a0f265e)
-![image](https://github.com/user-attachments/assets/7010825a-e4da-4cfd-87e0-8f9f353fb70f)
 
 
 - 각각 **자동차 등록** , **현대 FAQ** , **기아 FAQ** 이라는 테이블을 만들고</br></br> 
