@@ -61,8 +61,10 @@
 ![Image](https://github.com/user-attachments/assets/cbfff01f-e92d-4f14-9cd2-9520814b1f80)
 
 <div align="center">
- 
-**기아 홈페이지 FAQ** </br>
+
+</br>
+
+**기아 홈페이지 FAQ와 현대 홈페이지 FAQ** </br>
 
 </div>
 
@@ -98,7 +100,7 @@
 ![Image](https://github.com/user-attachments/assets/a1a4224f-3a6a-4b97-84a0-8690f026f1d5)
 
 - 상단: 검색기능
-- 중앙 : FAQ에 대한 조회화면( 항목,찾는 내용)
+- 중앙 : FAQ에 대한 조회화면(카테고리, 찾는 내용)
 - 하단 : 페이지 선택
 
 </br>
@@ -147,7 +149,7 @@
 
 ![Image](https://github.com/user-attachments/assets/33570c3a-9823-4d98-a5fc-f5803dbdfd01)
 - 중앙: **그래프 종류**를 선택하면 **연도**선택, **차량 종류**를 선택할 수 있는 화면이 나옵니다.</br>
-연도와 차량 종류를 선택하면 연결된 데이터베이스를 기반으로 그래프를 만들어줍니다.</br>
+연도와 차량 종류를 선택하면 연결된 데이터베이스를 기반으로 **그래프**를 만들어줍니다.</br>
 
 
 
