@@ -1,12 +1,12 @@
 import streamlit as st
-from query2db_faq import sql_execute
+from query2db import sql_execute
 
 st.title("기업 FAQ")
 
 st.page_link("MainPage.py", label="메인 페이지로 이동")
 
-hyundai = "C:/Users/Playdata/Desktop/SK ai camp 10기/1차 단위 프로젝트/현대 긴 로고.png"
-kia = "C:/Users/Playdata/Desktop/SK ai camp 10기/1차 단위 프로젝트/기아 긴 로고.png"
+hyundai = "./현대 긴 로고.png"
+kia = "./기아 긴 로고.png"
 
 search_input = st.text_input('검색할 내용을 입력해주세요.')
 
