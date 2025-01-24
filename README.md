@@ -112,12 +112,14 @@
 중앙: 연도별 자동차 등록 대수 조회, 기업별FAQ 조회을 눌러도 각각 페이지로 이동할 수 있습니다.
 
 
+
+
+
 <div align="center">
  
-  **연도별 자동차 등록 대수 조회**
+  **기업별 FAQ 조회**
   
 </div>
-
 
 ![Image](https://github.com/user-attachments/assets/55db2a2b-c231-4e07-84bc-fa754fddd756)
 중앙 : 검색할 내용을 엔터로 입력하면 **검색**에 맞는 자료를 보여줍니다</br>
@@ -128,9 +130,10 @@
 
 
 
+
 <div align="center">
  
-  **기업별 FAQ 조회**
+  **연도별 자동차 등록 대수 조회**
   
 </div>
 
