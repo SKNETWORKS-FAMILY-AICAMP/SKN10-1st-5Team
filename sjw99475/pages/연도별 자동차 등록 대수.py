@@ -75,7 +75,7 @@ if selected_graph == '선 그래프':
         df["value"] = df["value"].astype(int)
         st.subheader(', '.join([region for region in selected_regions]) + " 지역의")
         st.text(', '.join([category for category in selected_category]) + " 차량 검색 결과입니다.")
-        st.line_chart(df, x="year", y="value", color="city", height=500)
+        st.line_chart(df, x="year", y="value", color="city", height=500, x_label="연도", y_label="자동차 수")
 
 elif selected_graph == '지도':
     # 연도도 선택
