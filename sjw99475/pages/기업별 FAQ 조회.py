@@ -1,6 +1,8 @@
 import streamlit as st
 from query2db import sql_execute
 
+st.set_page_config(layout="wide")
+
 st.title("기업 FAQ")
 
 st.page_link("MainPage.py", label="메인 페이지로 이동")
@@ -40,7 +42,13 @@ elif choice_categorie:
 else:
   sql_where_category = "1 = 0"
 
-sql_where_statement = f"where\n({sql_where_category})" if sql_where_category else "where 1=0"
+# 입력한 텍스트가 포함된 질문만
+if search_input:
+  sql_where_search = f"Question like '%{search_input}%'"
+else:
+  sql_where_search = "1 = 1"
+
+sql_where_statement = f"where\n({sql_where_category})\nand {sql_where_search}" if sql_where_category else "where 1=0"
 
 # 아직 기업, 카테고리 둘 중 하나라도 선택하지 않았다면 쿼리하지 않음.
 if sql_from_statement and choice_categorie:
@@ -51,6 +59,7 @@ if sql_from_statement and choice_categorie:
     {sql_from_statement}
   {sql_where_statement}
   """
+  print(sql)
 
   result = sql_execute('faq', sql=sql)
   for i in range(len(result)):
