@@ -37,7 +37,10 @@
 
 ## 🔗 데이터베이스 설계문서: ERD
 
-![Image](https://github.com/user-attachments/assets/55657ead-ca75-4ae0-b137-08cb36d9ef3c)
+![image](https://github.com/user-attachments/assets/dcaa83c3-d937-47df-8dde-8aba41eb463e)
+![image](https://github.com/user-attachments/assets/598ab7b8-6319-4932-939c-33fd1a0f265e)
+![image](https://github.com/user-attachments/assets/7010825a-e4da-4cfd-87e0-8f9f353fb70f)
+
 
 - 각각 **자동차 등록** , **현대 FAQ** , **기아 FAQ** 이라는 테이블을 만들고</br></br> 
 - 자동차 등록에는 **id**를 기본키로 쓰고 각각 **지역**, **등록된 연도**, **월**, **자동차의 종류**, **목적**을 컬럼으로 만들었습니다.</br></br>
