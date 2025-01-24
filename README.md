@@ -30,7 +30,7 @@
 
 
 
-## 🔗 데이터베이스 설계문서: ERD (설명필요)
+## 🔗 데이터베이스 설계문서: ERD
 
 ![Image](https://github.com/user-attachments/assets/55657ead-ca75-4ae0-b137-08cb36d9ef3c)
 
