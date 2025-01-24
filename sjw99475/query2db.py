@@ -6,9 +6,9 @@ def sql_execute(db:str, sql:str) -> pd.DataFrame:
     # 이런거 .env에 넣어야 할 것 같긴함.
     connection = pymysql.connect(
         host="localhost",
-        port=3307,  # MySQL 서버 만들 때 3307 포트로 했음.
-        user="user",
-        password="u12345",
+        port=3306,  # MySQL 서버 만들 때 3307 포트로 했음.
+        user="faq_slave",
+        password="f1234",
         database=db
     )
 
