@@ -7,17 +7,28 @@ st.title("기업 FAQ")
 
 st.page_link("MainPage.py", label="메인 페이지로 이동")
 
+# 사용자 검색어 입력
 search_input = st.text_input('검색할 내용을 입력해주세요.')
 
 # FAQ 기업 선택
 company_layer, categorie_layer = st.columns(2)
 choice_company = st.selectbox('기업을 선택해주세요.', ('현대', '기아'), index=None)
 
+# 로고 경로
+hyundai = "./현대 긴 로고.png"
+kia = "./기아 긴 로고.png"
+
 # 기업에 따른 카테코리 설정
 if choice_company == "현대":
+  sidebar_logo = hyundai
+  main_body_logo = hyundai
+  st.logo(sidebar_logo, icon_image=main_body_logo)
   company = 'hyundai_faq'
   categorie = ('모든 카테고리', '차량구매', '차량정비', '홈페이지', '블루멤버스', '모젠서비스', '블루링크', '현대 디지털 키', '빌트인캠', '기타')
 elif choice_company == "기아":
+  sidebar_logo = kia
+  main_body_logo = kia
+  st.logo(sidebar_logo, icon_image=main_body_logo)
   company = 'kia_faq'
   categorie = ('모든 카테고리', '차량 구매','차량 정비','기아멤버스','홈페이지','PBV','기타')
 
