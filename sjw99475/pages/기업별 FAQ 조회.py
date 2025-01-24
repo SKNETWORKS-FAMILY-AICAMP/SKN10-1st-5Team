@@ -1,6 +1,8 @@
 import streamlit as st
 from query2db import sql_execute
 
+st.set_page_config(layout="wide")
+
 st.title("기업 FAQ")
 
 st.page_link("MainPage.py", label="메인 페이지로 이동")

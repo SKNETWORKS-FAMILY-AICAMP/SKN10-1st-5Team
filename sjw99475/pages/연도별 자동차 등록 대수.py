@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 from query2db import sql_execute
 import plotly.express as px
 
+st.set_page_config(layout="wide")
+
 # 그래프 종류들
 graphs = ['선 그래프', '지도', '도넛 차트']
 
@@ -156,6 +158,11 @@ elif selected_graph == '도넛 차트':
         fig = px.pie(
             df,
             values = "sum_value",
+            title = f"{selected_standard}[{choice_standard}] / {selected_view} 도넛 차트",
             names = mapping_view,
-            title = f"{selected_standard}[{choice_standard}] / {selected_view} 도넛 차트", height = 800)
+            height = 800,
+            hole = 0.3)
+        fig.update_traces(textfont = dict(size=25), textinfo = 'percent+label')
+        fig.update_layout(
+            title = dict(font = dict(size = 30)), showlegend = True, legend = dict(font = dict(size = 25)))
         st.plotly_chart(fig)
