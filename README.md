@@ -58,7 +58,7 @@
 
 - 설명을 적어주세요</br>
 
-![Image](https://github.com/user-attachments/assets/cbfff01f-e92d-4f14-9cd2-9520814b1f80)
+![Image](https://github.com/user-attachments/assets/eef9e92d-d473-46be-8cb5-021de03f9f14)
 
 <div align="center">
 
